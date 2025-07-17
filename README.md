@@ -1,14 +1,24 @@
->Note: This repository corresponds to the following pre-print of the paper: https://arxiv.org/abs/2504.16696
+## Evaluating Meta-Regression Techniques A Simulation Study on Heterogeneity in Location and Time
 
-## <em>Each R file does the following:</em>
-1. Generates data depending on which case it is (1-12) for either 1, 3 or 5 covariates (depending on the file)
-2. Runs the data through all ten meta-regression methodology specifications in a Monte Carlo simulation
-3. Generates graphs to illustrate the results for all ten methodology specifications side by side.
-4. Calculates power, and then exports all data from the simulation (including the data itself, parameters, standard errors, etc.)
+>Note: This repository corresponds to the following pre-print: https://arxiv.org/abs/2504.16696
 
-<em>Above is done to test which meta-regression methodology specification performs optimally in the face of joint heterogeneity in the location and time that each study was conducted in.</em>
+### What the R Code Does
+- Simulates data with joint heterogeneity in **location** and **time**
+- Tests ten meta-regression methodologies
+- Calculates estimator bias, MSE, power, and CI coverage
+- Generates figures summarizing results
 
-## Sample Code
+### Key Workflow
+- Vary covariates: 1, 3, 5
+- Vary number of countries: 5, 9, 15
+- Vary time heterogeneity and location heterogeneity
+- Repeat simulations via Monte Carlo design
+
+### Metrics Output
+- Power, RMSE, bias, confidence intervals, coverage rates
+- Exported as data frames for comparison
+
+### Sample Code
 
 This illustrates how the code operates when there is one covariate
 
