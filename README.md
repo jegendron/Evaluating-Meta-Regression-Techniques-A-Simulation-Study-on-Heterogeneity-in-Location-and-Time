@@ -15,7 +15,7 @@
 - Repeat simulations via Monte Carlo design
 
 ### Metrics Output
-- Power, RMSE, bias, confidence intervals, coverage rates
+- Power, MSE, bias, confidence intervals, coverage rates
 - Exported as data frames for comparison
 
 ### Sample Code
