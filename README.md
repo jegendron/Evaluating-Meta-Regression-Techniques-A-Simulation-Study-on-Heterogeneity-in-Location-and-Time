@@ -9,14 +9,9 @@
 - Generates figures summarizing results
 
 ### Key Workflow
-- Vary covariates: 1, 3, 5
 - Vary number of countries: 5, 9, 15
 - Vary time heterogeneity and location heterogeneity
 - Repeat simulations via Monte Carlo design
-
-### Metrics Output
-- Power, MSE, bias, confidence intervals, coverage rates
-- Exported as data frames for comparison
 
 ### Sample Code
 
